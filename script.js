@@ -34,8 +34,8 @@ description.innerHTML ="Calculator built using DOM"
 
 
 create("div","row","row2","calcCard");
-create("div","col-lg-2","dummy","row2");
-let display  = create("input","form-control me-2 col-lg-8","result","row2");
+create("div","col-sm-2","dummy","row2");
+let display  = create("input","form-control me-2 col-sm-8","result","row2");
 display.type = "text";
 
 display.style.height ="75px";
@@ -47,118 +47,118 @@ document.getElementById("result").disabled = true;
 
 //--------------------------- Row 3 ---------------------------------------------------
 let row3 = create("div","row","row3","calcCard");
-create("div","col-lg-2","dummy","row3");
+create("div","col-sm-2","dummy","row3");
 row3.style.marginTop ="0.5%";
 
-let C = create("button","col-lg-2  p-2 btn-primary calcButtons","clear","row3");
+let C = create("button","col-sm-2  p-2 btn-primary calcButtons","clear","row3");
 C.innerHTML ="C";
 C.setAttribute("onClick","Clear()");
 
 
 
-let back  = create("button","col-lg-2  p-2 calcButtons","back","row3");
+let back  = create("button","col-sm-2  p-2 calcButtons","back","row3");
 back.type = "button";
 back.innerHTML ="←";
 back.setAttribute("onClick","ClearOne()");
 
-let dec = create("button","col-lg-2  p-2 calcButtons","dec","row3");
+let dec = create("button","col-sm-2  p-2 calcButtons","dec","row3");
 dec.type ="button";
 dec.innerHTML=".";
 dec.setAttribute("onClick","Display('.')");
 
-let multiply = create("button","col-lg-2  p-2 calcButtons","multiply","row3");
+let multiply = create("button","col-sm-2  p-2 calcButtons","multiply","row3");
 multiply.type ="button";
 multiply.innerHTML="*";
 multiply.setAttribute("onClick","Display('*')");
 
 //--------------------------- Row 4 ---------------------------------------------------
 let row4 = create("div","row","row4","calcCard");
-create("div","col-lg-2","dummy","row4");
+create("div","col-sm-2","dummy","row4");
 row4.style.marginTop ="0.5%";
 
-let seven = create("button","col-lg-2  p-2 calcButtons","seven","row4");
+let seven = create("button","col-sm-2  p-2 calcButtons","seven","row4");
 seven.type = "button";
 seven.innerHTML ="7";
 seven.setAttribute("onClick","Display('7')");
 
-let eight = create("button","col-lg-2  p-2 calcButtons","eight","row4");
+let eight = create("button","col-sm-2  p-2 calcButtons","eight","row4");
 eight.type = "button";
 eight.innerHTML ="8";
 eight.setAttribute("onClick","Display('8')");
 
-let nine = create("button","col-lg-2  p-2 calcButtons","nine","row4");
+let nine = create("button","col-sm-2  p-2 calcButtons","nine","row4");
 nine.type = "button";
 nine.innerHTML ="9";
 nine.setAttribute("onClick","Display('9')");
 
-let divide = create("button","col-lg-2  p-2 calcButtons","divide","row4");
+let divide = create("button","col-sm-2  p-2 calcButtons","divide","row4");
 divide.type = "button";
 divide.innerHTML ="/";
 divide.setAttribute("onClick","Display('/')");
 
 //--------------------------- Row 5 ---------------------------------------------------
 let row5 = create("div","row","row5","calcCard");
-create("div","col-lg-2","dummy","row5");
+create("div","col-sm-2","dummy","row5");
 row5.style.marginTop ="0.5%";
 
-let four = create("button","col-lg-2  p-2 calcButtons","four","row5");
+let four = create("button","col-sm-2  p-2 calcButtons","four","row5");
 four.type = "button";
 four.innerHTML ="4";
 four.setAttribute("onClick","Display('4')");
 
-let five = create("button","col-lg-2  p-2 calcButtons","five","row5");
+let five = create("button","col-sm-2  p-2 calcButtons","five","row5");
 five.type = "button";
 five.innerHTML ="5";
 five.setAttribute("onClick","Display('5')");
 
-let six = create("button","col-lg-2  p-2 calcButtons","six","row5");
+let six = create("button","col-sm-2  p-2 calcButtons","six","row5");
 six.type = "button";
 six.innerHTML ="6";
 six.setAttribute("onClick","Display('6')");
 
-let sub = create("button","col-lg-2  p-2 calcButtons","subtract","row5");
+let sub = create("button","col-sm-2  p-2 calcButtons","subtract","row5");
 sub.type = "button";
 sub.innerHTML ="-";
 sub.setAttribute("onClick","Display('-')");
 //--------------------------- Row 6---------------------------------------------------
 let row6 =create("div","row","row6","calcCard");
-create("div","col-lg-2","dummy","row6");
+create("div","col-sm-2","dummy","row6");
 row6.style.marginTop ="0.5%";
-let one = create("button","col-lg-2  p-2 calcButtons","1","row6");
+let one = create("button","col-sm-2  p-2 calcButtons","1","row6");
 one.type = "button";
 one.innerHTML ="1";
 one.setAttribute("onClick","Display('1')");
 
-let two = create("button","col-lg-2  p-2 calcButtons","2","row6");
+let two = create("button","col-sm-2  p-2 calcButtons","2","row6");
 two.type = "button";
 two.innerHTML ="2";
 two.setAttribute("onClick","Display('2')");
 
-let three = create("button","col-lg-2  p-2 calcButtons","3","row6");
+let three = create("button","col-sm-2  p-2 calcButtons","3","row6");
 three.type = "button";
 three.innerHTML ="3";
 three.setAttribute("onClick","Display('3')");
 
-let plus = create("button","col-lg-2  p-2 calcButtons","add","row6");
+let plus = create("button","col-sm-2  p-2 calcButtons","add","row6");
 plus.type = "button";
 plus.innerHTML ="+";
 plus.setAttribute("onClick","Display('+')");
 
 //--------------------------- Row 7---------------------------------------------------
 row7 = create("div","row","row7","calcCard");
-create("div","col-lg-2","dummy","row7");
+create("div","col-sm-2","dummy","row7");
 row7.style.marginTop ="0.5%";
-let zero = create("button","col-lg-2  p-2 calcButtons","zero","row7");
+let zero = create("button","col-sm-2  p-2 calcButtons","zero","row7");
 zero.type = "button";
 zero.innerHTML ="0";
 zero.setAttribute("onClick","Display('0')");
 
-let doubleZero = create("button","col-lg-2  p-2  calcButtons","doubleZero","row7");
+let doubleZero = create("button","col-sm-2  p-2  calcButtons","doubleZero","row7");
 doubleZero.type = "button";
 doubleZero.innerHTML ="00";
 doubleZero.setAttribute("onClick","Display('00')");
 
-let equal = create("button","col-lg-4 btn-primary calcButtons","equal","row7");
+let equal = create("button","col-sm-4 btn-primary calcButtons","equal","row7");
 equal.type = "button";
 equal.innerHTML ="=";
 equal.setAttribute("onClick","Calculate()");
